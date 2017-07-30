@@ -1,0 +1,1035 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\modeltech64_10.1c\examples
+T_opt
+V31WMfDo]ED;WehWA9gRAD2
+04 8 3 work computer rtl 1
+=7-5ce0c52a2399-593eef7a-3e1-385c
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.1c;51
+T_opt1
+V`RnKjFSZI2T:oLmE]g8cA0
+04 14 10 work arithmeticunit behavioral 1
+=2-5ce0c52a2399-5937e56e-2b9-504
+R1
+n@_opt1
+R2
+Z3 dC:\modeltech64_10.1c\examples
+T_opt2
+V^2Q4BTNMFX^ihdkCJJGeD3
+04 3 6 work alu aluarc 1
+=1-5ce0c52a2399-5937de2b-2-1d24
+R1
+n@_opt2
+R2
+R3
+Eac
+Z4 w1495810449
+Z5 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z6 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z7 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z8 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z9 dC:\Users\asus\Documents\4th term\az manteghi\mips
+Z10 8C:/Users/asus/Documents/4th term/az manteghi/mips/AC.vhd
+Z11 FC:/Users/asus/Documents/4th term/az manteghi/mips/AC.vhd
+l0
+L5
+VH`PJNL]K0NPJTROcW3]D]2
+Z12 OL;C;10.1c;51
+32
+Z13 !s108 1495810552.441000
+Z14 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/asus/Documents/4th term/az manteghi/mips/AC.vhd|
+Z15 !s107 C:/Users/asus/Documents/4th term/az manteghi/mips/AC.vhd|
+Z16 o-work work -2002 -explicit
+Z17 tExplicit 1
+!s100 DH<EQ:8j`TgQ?D@V5Y8Cc2
+!i10b 1
+Adataflow
+R5
+R6
+R7
+R8
+DEx4 work 2 ac 0 22 H`PJNL]K0NPJTROcW3]D]2
+l17
+L16
+VX>2=YU8fH31RAY4KcclL60
+R12
+32
+R13
+R14
+R15
+R16
+R17
+!s100 W>CRkSZS5gPAmX5mRRmLH2
+!i10b 1
+Eadder
+Z18 w1495906570
+R7
+R8
+R9
+Z19 8C:/Users/asus/Documents/4th term/az manteghi/mips/adder.vhd
+Z20 FC:/Users/asus/Documents/4th term/az manteghi/mips/adder.vhd
+l0
+L4
+VaiH:Wbii_GXHG@^6iEC@C0
+R12
+32
+Z21 !s108 1497295131.059000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/asus/Documents/4th term/az manteghi/mips/adder.vhd|
+Z23 !s107 C:/Users/asus/Documents/4th term/az manteghi/mips/adder.vhd|
+R16
+R17
+!s100 VHD9n0gDOPY:2TfnPF90<1
+!i10b 1
+Abehavioral
+R7
+R8
+DEx4 work 5 adder 0 22 aiH:Wbii_GXHG@^6iEC@C0
+l23
+L12
+VAhS0kG`1X5lYdVd`RMz^[3
+R12
+32
+R21
+R22
+R23
+R16
+R17
+!s100 CLmZJiL^ET99[@BM]:Fjf1
+!i10b 1
+Ealu
+Z24 w1496833815
+Z25 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R7
+R8
+R9
+Z26 8C:/Users/asus/Documents/4th term/az manteghi/mips/test.vhd
+Z27 FC:/Users/asus/Documents/4th term/az manteghi/mips/test.vhd
+l0
+L4
+V28@RV9QWL;MRbKhnNBIGh2
+R12
+32
+Z28 !s108 1497295130.761000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/asus/Documents/4th term/az manteghi/mips/test.vhd|
+Z30 !s107 C:/Users/asus/Documents/4th term/az manteghi/mips/test.vhd|
+R16
+R17
+!s100 Y7IB?2j73:FX@JPJG<T;N3
+!i10b 1
+Aaluarc
+R25
+R7
+R8
+DEx4 work 3 alu 0 22 28@RV9QWL;MRbKhnNBIGh2
+l39
+L16
+VF5:A8UeGMVTKNZ]`Dlc9k1
+R12
+32
+R28
+R29
+R30
+R16
+R17
+!s100 bUB2AEb6DAOG9^PF6e=0P0
+!i10b 1
+Ear
+Z31 w1496824005
+R5
+R6
+R7
+R8
+R9
+Z32 8C:/Users/asus/Documents/4th term/az manteghi/mips/AR.vhd
+Z33 FC:/Users/asus/Documents/4th term/az manteghi/mips/AR.vhd
+l0
+L5
+V6fk4IoZS`0[AP3n8N]I@30
+R12
+32
+Z34 !s108 1497295128.194000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/asus/Documents/4th term/az manteghi/mips/AR.vhd|
+Z36 !s107 C:/Users/asus/Documents/4th term/az manteghi/mips/AR.vhd|
+R16
+R17
+!s100 CaBA[IlieIEfoV51MghFE3
+!i10b 1
+Adataflow
+R5
+R6
+R7
+R8
+DEx4 work 2 ar 0 22 6fk4IoZS`0[AP3n8N]I@30
+l16
+L15
+V8cW@[k<;SS7SmLlQS`m>k1
+R12
+32
+R34
+R35
+R36
+R16
+R17
+!s100 KoH8;N]Xlg>=c0Jizo[X@3
+!i10b 1
+Earithmeticunit
+Z37 w1497296743
+R25
+R7
+R8
+R9
+Z38 8C:\Users\asus\Documents\4th term\az manteghi\mips\ALU.vhd
+Z39 FC:\Users\asus\Documents\4th term\az manteghi\mips\ALU.vhd
+l0
+L5
+VlCPdgX<aFzEba@f1IAVSX3
+R12
+32
+Z40 !s108 1497296743.926000
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:\Users\asus\Documents\4th term\az manteghi\mips\ALU.vhd|
+Z42 !s107 C:\Users\asus\Documents\4th term\az manteghi\mips\ALU.vhd|
+R16
+R17
+!s100 zb9P<fi=eo9UfW9UNLGHk1
+!i10b 1
+Abehavioral
+R25
+R7
+R8
+DEx4 work 14 arithmeticunit 0 22 lCPdgX<aFzEba@f1IAVSX3
+l35
+L20
+V0le3AdKXL3ncl08P7:8_@1
+R12
+32
+R40
+R41
+R42
+R16
+R17
+!s100 cQ^D@_eGg@boP3jNDBcHc0
+!i10b 1
+Ebasiccomputer
+Z43 w1495833843
+R7
+R8
+R9
+Z44 8C:\Users\asus\Documents\4th term\az manteghi\mips\test.vhd
+Z45 FC:\Users\asus\Documents\4th term\az manteghi\mips\test.vhd
+l0
+L32
+VV=mTA;?`Y76o_GS<^MEQ91
+R12
+32
+Z46 !s108 1495833843.487000
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:\Users\asus\Documents\4th term\az manteghi\mips\test.vhd|
+Z48 !s107 C:\Users\asus\Documents\4th term\az manteghi\mips\test.vhd|
+R16
+R17
+!s100 9RR@a:CRKQ:gGXfZgU=Tc2
+!i10b 1
+Abehavioral
+R7
+R8
+DEx4 work 13 basiccomputer 0 22 V=mTA;?`Y76o_GS<^MEQ91
+l72
+L37
+VBf5?^PCKehUneO3<Zj`WN3
+R12
+32
+R46
+R47
+R48
+R16
+R17
+!s100 7lATZdGS2W`_>;BL5YozC3
+!i10b 1
+Ecmp16
+R24
+R5
+R6
+R7
+R8
+R9
+R26
+R27
+l0
+L170
+VGzjO7Po1?PI3_<SPA=h_P3
+R12
+32
+R28
+R29
+R30
+R16
+R17
+!s100 @d@S=Y68[GN1mgOV?MA@H3
+!i10b 1
+Aa
+R5
+R6
+R7
+R8
+DEx4 work 5 cmp16 0 22 GzjO7Po1?PI3_<SPA=h_P3
+l179
+L177
+VlP0TQFWae0OQn_nV?cI]20
+R12
+32
+R28
+R29
+R30
+R16
+R17
+!s100 fC0O7C=MW;o7B_z5<WUUI0
+!i10b 1
+Ecomputer
+Z49 w1496829548
+R25
+R7
+R8
+R9
+Z50 8C:/Users/asus/Documents/4th term/az manteghi/mips/computer.vhd
+Z51 FC:/Users/asus/Documents/4th term/az manteghi/mips/computer.vhd
+l0
+L4
+VEhSi]R8IgP=3DM==SkI:_1
+R12
+32
+Z52 !s108 1497295132.033000
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/asus/Documents/4th term/az manteghi/mips/computer.vhd|
+Z54 !s107 C:/Users/asus/Documents/4th term/az manteghi/mips/computer.vhd|
+R16
+R17
+!s100 MCib=?ARTWmMfC?DK6c8Y0
+!i10b 1
+Artl
+R25
+R7
+R8
+DEx4 work 8 computer 0 22 EhSi]R8IgP=3DM==SkI:_1
+l60
+L8
+V>R:Z2edmFWE:i_1`RSa==3
+R12
+32
+R52
+R53
+R54
+R16
+R17
+!s100 BilE8HgPBJoXoCho9E_N30
+!i10b 1
+Econtroller
+Z55 w1497278952
+R5
+R6
+R7
+R8
+R9
+Z56 8C:/Users/asus/Documents/4th term/az manteghi/mips/controller.vhd
+Z57 FC:/Users/asus/Documents/4th term/az manteghi/mips/controller.vhd
+l0
+L5
+VTzJ[F`j;E3hMHE3hB4Pcg0
+R12
+32
+Z58 !s108 1497295131.835000
+Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/asus/Documents/4th term/az manteghi/mips/controller.vhd|
+Z60 !s107 C:/Users/asus/Documents/4th term/az manteghi/mips/controller.vhd|
+R16
+R17
+!s100 IRDTfD6m`7:QXW0zXHPZ41
+!i10b 1
+Adescription
+R5
+R6
+R7
+R8
+DEx4 work 10 controller 0 22 TzJ[F`j;E3hMHE3hB4Pcg0
+l58
+L20
+Vzfc;YC@fzneo?@@m=@[z;1
+R12
+32
+R58
+R59
+R60
+R16
+R17
+!s100 lmVCahoHejU>6fj0:Y03F1
+!i10b 1
+Aarc
+R25
+R7
+R8
+DEx4 work 10 controller 0 22 M]Yk0P_k@ci26bMd1o@HK2
+l73
+L19
+VUN=[DcVS25EIXiCL<8=Of1
+R12
+32
+R16
+R17
+w1495839101
+R29
+R30
+R27
+R26
+!s108 1495906720.755000
+!s100 =YL<fXZ`M4oAOLz`Amnj70
+!i10b 1
+Edatapath
+Z61 w1497295129
+R5
+R6
+R7
+R8
+R9
+Z62 8C:\Users\asus\Documents\4th term\az manteghi\mips\datapath.vhd
+Z63 FC:\Users\asus\Documents\4th term\az manteghi\mips\datapath.vhd
+l0
+L5
+V4<Jm<[Lz=V4i]`<eo;`_C2
+R12
+32
+Z64 !s108 1497295993.857000
+Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:\Users\asus\Documents\4th term\az manteghi\mips\datapath.vhd|
+Z66 !s107 C:\Users\asus\Documents\4th term\az manteghi\mips\datapath.vhd|
+R16
+R17
+!s100 oYg6jgmh>8fB9cRKUPNLk0
+!i10b 1
+Adataflow
+R5
+R6
+R7
+R8
+DEx4 work 8 datapath 0 22 4<Jm<[Lz=V4i]`<eo;`_C2
+l126
+L24
+VZTP_[1ianXdR3_=11Gd6O1
+R12
+32
+R64
+R65
+R66
+R16
+R17
+!s100 aRW?zg`CbLLiP9`lgnhVi3
+!i10b 1
+Edr
+Z67 w1495810464
+R5
+R6
+R7
+R8
+R9
+Z68 8C:/Users/asus/Documents/4th term/az manteghi/mips/DR.vhd
+Z69 FC:/Users/asus/Documents/4th term/az manteghi/mips/DR.vhd
+l0
+L5
+Vg2AP3862D8I]cKJ`GaTJI1
+R12
+32
+Z70 !s108 1495810553.583000
+Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/asus/Documents/4th term/az manteghi/mips/DR.vhd|
+Z72 !s107 C:/Users/asus/Documents/4th term/az manteghi/mips/DR.vhd|
+R16
+R17
+!s100 JL]W?WNbAJ?_OnQ4<H^o@3
+!i10b 1
+Adataflow
+R5
+R6
+R7
+R8
+DEx4 work 2 dr 0 22 g2AP3862D8I]cKJ`GaTJI1
+l17
+L16
+VQO1]n0832BWVAjZ:A4U;a0
+R12
+32
+R70
+R71
+R72
+R16
+R17
+!s100 0b@3Gnf0Z<MfST5P15kCQ2
+!i10b 1
+Ee
+Z73 w1495810465
+R5
+R6
+R7
+R8
+R9
+Z74 8C:/Users/asus/Documents/4th term/az manteghi/mips/E.vhd
+Z75 FC:/Users/asus/Documents/4th term/az manteghi/mips/E.vhd
+l0
+L5
+VUJ:zIZ8Q8eT@XmMdn<PIS1
+R12
+32
+Z76 !s108 1495810553.773000
+Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/asus/Documents/4th term/az manteghi/mips/E.vhd|
+Z78 !s107 C:/Users/asus/Documents/4th term/az manteghi/mips/E.vhd|
+R16
+R17
+!s100 TXF=RCfY[A`K:4ggdD]?M3
+!i10b 1
+Adataflow
+R5
+R6
+R7
+R8
+DEx4 work 1 e 0 22 UJ:zIZ8Q8eT@XmMdn<PIS1
+l14
+L13
+Vl6bVYnj=H<8i1FO:n17]i0
+R12
+32
+R76
+R77
+R78
+R16
+R17
+!s100 S[QlVLa9AYjzcMUJUTj2l2
+!i10b 1
+Efulladder
+Z79 w1495906420
+R7
+R8
+R9
+Z80 8C:/Users/asus/Documents/4th term/az manteghi/mips/fulladder.vhd
+Z81 FC:/Users/asus/Documents/4th term/az manteghi/mips/fulladder.vhd
+l0
+L4
+VCh>_zM[g^GAl60f=e3nXn1
+R12
+32
+Z82 !s108 1497295132.233000
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/asus/Documents/4th term/az manteghi/mips/fulladder.vhd|
+Z84 !s107 C:/Users/asus/Documents/4th term/az manteghi/mips/fulladder.vhd|
+R16
+R17
+!s100 9YJ0O<<NNmPUCSUPIUXRn0
+!i10b 1
+Abehavioral
+R7
+R8
+DEx4 work 9 fulladder 0 22 Ch>_zM[g^GAl60f=e3nXn1
+l14
+L12
+VZ3Oz]TTj[OLG]^eaeCNjl1
+R12
+32
+R82
+R83
+R84
+R16
+R17
+!s100 oZOnL9N`i1T:IZak=`=eO3
+!i10b 1
+Einpr
+Z85 w1495810468
+R7
+R8
+R9
+Z86 8C:/Users/asus/Documents/4th term/az manteghi/mips/INPR.vhd
+Z87 FC:/Users/asus/Documents/4th term/az manteghi/mips/INPR.vhd
+l0
+L32
+VDWL:I4ZUl_59]DZ=8Bjz:2
+R12
+32
+Z88 !s108 1495810553.968000
+Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/asus/Documents/4th term/az manteghi/mips/INPR.vhd|
+Z90 !s107 C:/Users/asus/Documents/4th term/az manteghi/mips/INPR.vhd|
+R16
+R17
+!s100 `GDljF783Sgh8I8fcPk1M1
+!i10b 1
+Abehavioral
+R7
+R8
+DEx4 work 4 inpr 0 22 DWL:I4ZUl_59]DZ=8Bjz:2
+l37
+L35
+V2PQhz9UiC@BVSkM>zmQVi1
+R12
+32
+R88
+R89
+R90
+R16
+R17
+!s100 MDgWWN[dJm[MT2N7dbP1e1
+!i10b 1
+Eir
+Z91 w1496823881
+R5
+R6
+R7
+R8
+R9
+Z92 8C:/Users/asus/Documents/4th term/az manteghi/mips/IR.vhd
+Z93 FC:/Users/asus/Documents/4th term/az manteghi/mips/IR.vhd
+l0
+L5
+VOScS<M]6O85i<D^WU_33k3
+R12
+32
+Z94 !s108 1497295129.984000
+Z95 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/asus/Documents/4th term/az manteghi/mips/IR.vhd|
+Z96 !s107 C:/Users/asus/Documents/4th term/az manteghi/mips/IR.vhd|
+R16
+R17
+!s100 B>j40K:hgLi00a`MijZl>1
+!i10b 1
+Adataflow
+R5
+R6
+R7
+R8
+DEx4 work 2 ir 0 22 OScS<M]6O85i<D^WU_33k3
+l16
+L15
+VK9F7aF4BdoYJTj0i9c3;U1
+R12
+32
+R94
+R95
+R96
+R16
+R17
+!s100 P`EK?4a3joz9A9A6P:Bg?0
+!i10b 1
+Air_arc
+R25
+R7
+R8
+DEx4 work 2 ir 0 22 DbO9k7azM_1^fnmed4Lbm0
+l14
+L13
+V[dRiiUz?Q84l1_C_Bb;cF1
+R12
+32
+R47
+R48
+R16
+R17
+R45
+w1496813956
+R44
+!s108 1496817025.382000
+!s100 FOCLOiIO`d]:J649E3i<;1
+!i10b 1
+Ememory
+Z97 w1497279094
+R25
+R7
+R8
+R9
+Z98 8C:/Users/asus/Documents/4th term/az manteghi/mips/memory.vhd
+Z99 FC:/Users/asus/Documents/4th term/az manteghi/mips/memory.vhd
+l0
+L5
+V<;TD8lCSF8kza7z:2FnMK3
+R12
+32
+Z100 !s108 1497295130.183000
+Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/asus/Documents/4th term/az manteghi/mips/memory.vhd|
+Z102 !s107 C:/Users/asus/Documents/4th term/az manteghi/mips/memory.vhd|
+R16
+R17
+!s100 L?^`ObN<QSYY@b2NKOVOG1
+!i10b 1
+Abehavioral
+R25
+R7
+R8
+DEx4 work 6 memory 0 22 <;TD8lCSF8kza7z:2FnMK3
+l17
+L15
+VU0B?7LJ1HMebHdHWiO?h@3
+R12
+32
+R100
+R101
+R102
+R16
+R17
+!s100 5kf]0<ZFOC43ILh@4L`2h3
+!i10b 1
+Emux
+Z103 w1496822809
+R7
+R8
+R9
+Z104 8C:/Users/asus/Documents/4th term/az manteghi/mips/mux.vhd
+Z105 FC:/Users/asus/Documents/4th term/az manteghi/mips/mux.vhd
+l0
+L6
+V_U8U<?iZGGI2K^mFOncbS0
+R12
+32
+Z106 !s108 1497295131.633000
+Z107 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/asus/Documents/4th term/az manteghi/mips/mux.vhd|
+Z108 !s107 C:/Users/asus/Documents/4th term/az manteghi/mips/mux.vhd|
+R16
+R17
+!s100 nGD20Aa;PnOaA8>8g1e[O0
+!i10b 1
+Abehavioral
+R7
+R8
+DEx4 work 3 mux 0 22 _U8U<?iZGGI2K^mFOncbS0
+l21
+L18
+V06NaIK]jPah01ojOQ@YB[3
+R12
+32
+R106
+R107
+R108
+R16
+R17
+!s100 ?9>imkDD@1W5ZBP@L=NNA3
+!i10b 1
+Emux16
+Z109 w1495833771
+R7
+R8
+R9
+Z110 8C:/Users/asus/Documents/4th term/az manteghi/mips/MUX16.vhd
+Z111 FC:/Users/asus/Documents/4th term/az manteghi/mips/MUX16.vhd
+l0
+L6
+V@ZN_^3nJR@Red5O3Aba>i1
+R12
+32
+Z112 !s108 1497295130.373000
+Z113 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/asus/Documents/4th term/az manteghi/mips/MUX16.vhd|
+Z114 !s107 C:/Users/asus/Documents/4th term/az manteghi/mips/MUX16.vhd|
+R16
+R17
+!s100 lCE:Cbc7G2fl@U`XWT`mf3
+!i10b 1
+Abehavioral
+R7
+R8
+DEx4 work 5 mux16 0 22 @ZN_^3nJR@Red5O3Aba>i1
+l30
+L18
+VZCDdGahjC8RWd2@V38Vja1
+R12
+32
+R112
+R113
+R114
+R16
+R17
+!s100 WZmnJO>T9bKVYWWWAi`FA0
+!i10b 1
+Emux16_2
+Z115 w1495810476
+R7
+R8
+R9
+Z116 8C:/Users/asus/Documents/4th term/az manteghi/mips/mux16_2.vhd
+Z117 FC:/Users/asus/Documents/4th term/az manteghi/mips/mux16_2.vhd
+l0
+L32
+VCnQRmeT^GFgDlNRY9`?z20
+R12
+32
+Z118 !s108 1495810554.712000
+Z119 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/asus/Documents/4th term/az manteghi/mips/mux16_2.vhd|
+Z120 !s107 C:/Users/asus/Documents/4th term/az manteghi/mips/mux16_2.vhd|
+R16
+R17
+!s100 ;`GFKSaoAY@Ei>6h<YM]e1
+!i10b 1
+Abehavioral
+R7
+R8
+DEx4 work 7 mux16_2 0 22 CnQRmeT^GFgDlNRY9`?z20
+l60
+L44
+VL24TI@Baf[d^KdH<NF=^d1
+R12
+32
+R118
+R119
+R120
+R16
+R17
+!s100 ALBP?NPh0>n?ZTRFPEfHg3
+!i10b 1
+Epc
+Z121 w1496815366
+R5
+R6
+R7
+R8
+R9
+Z122 8C:/Users/asus/Documents/4th term/az manteghi/mips/PC.vhd
+Z123 FC:/Users/asus/Documents/4th term/az manteghi/mips/PC.vhd
+l0
+L5
+V8gC3@iY_H^E;KQVdn7Rhh1
+R12
+32
+Z124 !s108 1497295130.558000
+Z125 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/asus/Documents/4th term/az manteghi/mips/PC.vhd|
+Z126 !s107 C:/Users/asus/Documents/4th term/az manteghi/mips/PC.vhd|
+R16
+R17
+!s100 OchI2JS`<L7MUI4ka9UG_2
+!i10b 1
+Adataflow
+R5
+R6
+R7
+R8
+DEx4 work 2 pc 0 22 8gC3@iY_H^E;KQVdn7Rhh1
+l18
+L16
+VO^KZF:ek>go0^Kg@>eA0G2
+R12
+32
+R124
+R125
+R126
+R16
+R17
+!s100 Y[6YBe^XA1MBPQ0B@UUD?3
+!i10b 1
+Eregisterfile
+Z127 w1496839184
+R25
+R7
+R8
+R9
+Z128 8C:/Users/asus/Documents/4th term/az manteghi/mips/registerfile.vhd
+Z129 FC:/Users/asus/Documents/4th term/az manteghi/mips/registerfile.vhd
+l0
+L5
+VBWdb=n_jzoS0<gW;:[h3L0
+R12
+32
+Z130 !s108 1497295131.247000
+Z131 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/asus/Documents/4th term/az manteghi/mips/registerfile.vhd|
+Z132 !s107 C:/Users/asus/Documents/4th term/az manteghi/mips/registerfile.vhd|
+R16
+R17
+!s100 N@NiAf>Tl`J`8Zf;KAVUG3
+!i10b 1
+Artl
+R25
+R7
+R8
+DEx4 work 12 registerfile 0 22 BWdb=n_jzoS0<gW;:[h3L0
+l28
+L24
+V^Fjk6IF=]QO8=6dSY:gfZ1
+R12
+32
+R130
+R131
+R132
+R16
+R17
+!s100 j1BgYHRI>3_5nMMV5?=210
+!i10b 1
+Esayeh
+w1495838768
+R25
+R7
+R8
+R9
+Z133 8C:\Users\asus\Documents\4th term\az manteghi\mips\computer.vhd
+Z134 FC:\Users\asus\Documents\4th term\az manteghi\mips\computer.vhd
+l0
+L4
+VK83Q=[cnJ]D4`iZY0k;kS3
+R12
+32
+Z135 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:\Users\asus\Documents\4th term\az manteghi\mips\computer.vhd|
+Z136 !s107 C:\Users\asus\Documents\4th term\az manteghi\mips\computer.vhd|
+R16
+R17
+!s108 1495838934.793000
+!s100 OM5LN:NHckG=9h<oCTgkO2
+!i10b 1
+Artl
+w1495906093
+R25
+R7
+R8
+DEx4 work 5 sayeh 0 22 K83Q=[cnJ]D4`iZY0k;kS3
+l55
+L7
+Vk[hh`_9_>G6@D1f3LX5L03
+R12
+32
+R135
+R136
+R16
+R17
+!s108 1495906102.366000
+!s100 eKli95]NV:0b7Jc<i`Cmh0
+!i10b 1
+Esix_bit_adder
+R24
+R7
+R8
+R9
+R26
+R27
+l0
+L137
+VVnZjA4:OXmZoFVbRd=WaZ3
+R12
+32
+R28
+R29
+R30
+R16
+R17
+!s100 B[z?Yhf<EM@RHSfZ0A@gF2
+!i10b 1
+Aarch_six_bit_adder
+R7
+R8
+DEx4 work 13 six_bit_adder 0 22 VnZjA4:OXmZoFVbRd=WaZ3
+l153
+L145
+VmdgS:6e<5f[M9jX0elA@J2
+R12
+32
+R28
+R29
+R30
+R16
+R17
+!s100 QFJi=UTN]7Pg=FngSh:lK3
+!i10b 1
+Estatusreg
+Z137 w1497296465
+R25
+R7
+R8
+R9
+Z138 8C:\Users\asus\Documents\4th term\az manteghi\mips\statusreg.vhd
+Z139 FC:\Users\asus\Documents\4th term\az manteghi\mips\statusreg.vhd
+l0
+L4
+V26FX?Xc[UAzZ9T[gkBnO22
+R12
+32
+Z140 !s108 1497296571.913000
+Z141 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:\Users\asus\Documents\4th term\az manteghi\mips\statusreg.vhd|
+Z142 !s107 C:\Users\asus\Documents\4th term\az manteghi\mips\statusreg.vhd|
+R16
+R17
+!s100 l`9>o^:BXZS:?gX>=0O1M0
+!i10b 1
+Aarc
+R25
+R7
+R8
+DEx4 work 9 statusreg 0 22 26FX?Xc[UAzZ9T[gkBnO22
+l10
+L9
+V1PUbE7zAISn;Eg_bPZn`L3
+R12
+32
+R140
+R141
+R142
+R16
+R17
+!s100 j1GkhPA5hMi68Dka`86=23
+!i10b 1
+Etr
+Z143 w1495810447
+R5
+R6
+R7
+R8
+R9
+Z144 8C:/Users/asus/Documents/4th term/az manteghi/mips/TR.vhd
+Z145 FC:/Users/asus/Documents/4th term/az manteghi/mips/TR.vhd
+l0
+L5
+V3aDd>6eI@YY`Hd<haN1><1
+R12
+32
+Z146 !s108 1495810555.070000
+Z147 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/asus/Documents/4th term/az manteghi/mips/TR.vhd|
+Z148 !s107 C:/Users/asus/Documents/4th term/az manteghi/mips/TR.vhd|
+R16
+R17
+!s100 4B2KJ9e:6>^cAQX0Q^k`>0
+!i10b 1
+Adataflow
+R5
+R6
+R7
+R8
+DEx4 work 2 tr 0 22 3aDd>6eI@YY`Hd<haN1><1
+l17
+L16
+V4W@?c5inN3C=Vj3LaCIPG0
+R12
+32
+R146
+R147
+R148
+R16
+R17
+!s100 Y_g1LHCock?VL@BnP12@H1
+!i10b 1
+Ewp
+Z149 w1495914493
+R25
+R7
+R8
+R9
+R26
+R27
+l0
+L466
+V>@i5jNI@=Ai[5mIMH1m_43
+R12
+32
+Z150 !s108 1496228039.564000
+R29
+R30
+R16
+R17
+!s100 U[2`BzA[5cKKV4O>FdNP33
+!i10b 1
+Aarc
+R25
+R7
+R8
+DEx4 work 2 wp 0 22 >@i5jNI@=Ai[5mIMH1m_43
+l475
+L473
+V`NNaZJRLc3iRcJMHC]i9H3
+R12
+32
+R150
+R29
+R30
+R16
+R17
+!s100 _UGPOVlOn609^Kne]CRoF3
+!i10b 1

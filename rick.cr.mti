@@ -1,0 +1,143 @@
+{C:/Users/asus/Documents/4th term/az manteghi/mips/memory.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Users/asus/Documents/4th term/az manteghi/mips/memory.vhd}
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity memory
+-- Compiling architecture behavioral of memory
+
+} {} {}} {C:/Users/asus/Documents/4th term/az manteghi/mips/MUX16.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Users/asus/Documents/4th term/az manteghi/mips/MUX16.vhd}
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MUX16
+-- Compiling architecture Behavioral of MUX16
+
+} {} {}} {C:/Users/asus/Documents/4th term/az manteghi/mips/ALU.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Users/asus/Documents/4th term/az manteghi/mips/ALU.vhd}
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ArithmeticUnit
+-- Compiling architecture Behavioral of ArithmeticUnit
+
+} {} {}} {C:/Users/asus/Documents/4th term/az manteghi/mips/mux.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Users/asus/Documents/4th term/az manteghi/mips/mux.vhd}
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MUX
+-- Compiling architecture Behavioral of MUX
+
+} {} {}} {C:/Users/asus/Documents/4th term/az manteghi/mips/statusreg.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Users/asus/Documents/4th term/az manteghi/mips/statusreg.vhd}
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity statusreg
+-- Compiling architecture arc of statusreg
+
+} {} {}} {C:/Users/asus/Documents/4th term/az manteghi/mips/fulladder.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Users/asus/Documents/4th term/az manteghi/mips/fulladder.vhd}
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fulladder
+-- Compiling architecture Behavioral of fulladder
+
+} {} {}} {C:/Users/asus/Documents/4th term/az manteghi/mips/AR.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Users/asus/Documents/4th term/az manteghi/mips/AR.vhd}
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity AR
+-- Compiling architecture dataflow of AR
+
+} {} {}} {C:/Users/asus/Documents/4th term/az manteghi/mips/registerfile.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Users/asus/Documents/4th term/az manteghi/mips/registerfile.vhd}
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity registerfile
+-- Compiling architecture rtl of registerfile
+
+} {} {}} {C:/Users/asus/Documents/4th term/az manteghi/mips/computer.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Users/asus/Documents/4th term/az manteghi/mips/computer.vhd}
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity computer
+-- Compiling architecture rtl of computer
+
+} {} {}} {C:/Users/asus/Documents/4th term/az manteghi/mips/adder.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Users/asus/Documents/4th term/az manteghi/mips/adder.vhd}
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity adder
+-- Compiling architecture Behavioral of adder
+
+} {} {}} {C:/Users/asus/Documents/4th term/az manteghi/mips/PC.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Users/asus/Documents/4th term/az manteghi/mips/PC.vhd}
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity PC
+-- Compiling architecture dataflow of PC
+
+} {} {}} {C:/Users/asus/Documents/4th term/az manteghi/mips/IR.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Users/asus/Documents/4th term/az manteghi/mips/IR.vhd}
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity IR
+-- Compiling architecture dataflow of IR
+
+} {} {}} {C:/Users/asus/Documents/4th term/az manteghi/mips/controller.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Users/asus/Documents/4th term/az manteghi/mips/controller.vhd}
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity controller
+-- Compiling architecture description of controller
+
+} {} {}} {C:/Users/asus/Documents/4th term/az manteghi/mips/datapath.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Users/asus/Documents/4th term/az manteghi/mips/datapath.vhd}
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity datapath
+-- Compiling architecture dataflow of datapath
+
+} {} {}} {C:/Users/asus/Documents/4th term/az manteghi/mips/test.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Users/asus/Documents/4th term/az manteghi/mips/test.vhd}
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ALU
+-- Compiling architecture aluarc of ALU
+-- Compiling entity six_bit_adder
+-- Compiling architecture arch_six_bit_adder of six_bit_adder
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity cmp16
+-- Compiling architecture a of cmp16
+
+} {} {}}

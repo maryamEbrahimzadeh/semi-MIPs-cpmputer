@@ -1,0 +1,81 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date:    14:07:33 04/10/2017 
+-- Design Name: 
+-- Module Name:    MUX - Behavioral 
+-- Project Name: 
+-- Target Devices: 
+-- Tool versions: 
+-- Description: 
+--
+-- Dependencies: 
+--
+-- Revision: 
+-- Revision 0.01 - File Created
+-- Additional Comments: 
+--
+----------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx primitives in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity mux16_2 is
+    Port ( I0 : in  STD_LOGIC_vector (15 DOWNTO 0);
+           I1 : in  STD_LOGIC_vector (15 DOWNTO 0);
+           I2 : in  STD_LOGIC_vector (11 DOWNTO 0);
+           I3 : in  STD_LOGIC_vector (2 DOWNTO 0);
+			  I4 : in  STD_LOGIC_vector (5 DOWNTO 0);
+           S0 : in  STD_LOGIC;
+           S1 : in  STD_LOGIC;
+           S2 : in  STD_LOGIC;
+           O : out  STD_LOGIC_vector (15 DOWNTO 0));
+end mux16_2;
+
+architecture Behavioral of mux16_2 is
+component MUX is
+    Port ( I0 : in  STD_LOGIC;
+           I1 : in  STD_LOGIC;
+           I2 : in  STD_LOGIC;
+           I3 : in  STD_LOGIC;
+           I4 : in  STD_LOGIC;
+           I5 : in  STD_LOGIC;
+           I6 : in  STD_LOGIC;
+           I7 : in  STD_LOGIC;
+           S0 : in  STD_LOGIC;
+           S1 : in  STD_LOGIC;
+           S2 : in  STD_LOGIC;
+           O : out  STD_LOGIC);
+end component;
+signal x,y,z:STD_LOGIC_vector (15 DOWNTO 0);
+begin
+x<=I2 & "0000";
+y<=I3 & "0000000000000";
+z<=I4 & "0000000000";
+a1:MUX port map (I0(0),I1(0),x(0),y(0),z(0),'0','0','0',s0,s1,s2,O(0));
+a2:MUX port map (I0(1),I1(1),x(1),y(1),z(1),'0','0','0',s0,s1,s2,O(1));
+a3:MUX port map (I0(2),I1(2),x(2),y(2),z(2),'0','0','0',s0,s1,s2,O(2));
+a4:MUX port map (I0(3),I1(3),x(3),y(3),z(3),'0','0','0',s0,s1,s2,O(3));
+a5:MUX port map (I0(4),I1(4),x(4),y(4),z(4),'0','0','0',s0,s1,s2,O(4));
+a6:MUX port map (I0(5),I1(5),x(5),y(5),z(5),'0','0','0',s0,s1,s2,O(5));
+a7:MUX port map (I0(6),I1(6),x(6),y(6),z(6),'0','0','0',s0,s1,s2,O(6));
+a8:MUX port map (I0(7),I1(7),x(7),y(7),z(7),'0','0','0',s0,s1,s2,O(7));
+a9:MUX port map (I0(8),I1(8),x(8),y(8),z(8),'0','0','0',s0,s1,s2,O(8));
+a10:MUX port map (I0(9),I1(9),x(9),y(9),z(9),'0','0','0',s0,s1,s2,O(9));
+a11:MUX port map (I0(10),I1(10),x(10),y(10),z(10),'0','0','0',s0,s1,s2,O(10));
+a12:MUX port map (I0(11),I1(11),x(11),y(11),z(11),'0','0','0',s0,s1,s2,O(11));
+a13:MUX port map (I0(12),I1(12),x(12),y(12),z(12),'0','0','0',s0,s1,s2,O(12));
+a14:MUX port map (I0(13),I1(13),x(13),y(13),z(13),'0','0','0',s0,s1,s2,O(13));
+a15:MUX port map (I0(14),I1(14),x(14),y(14),z(14),'0','0','0',s0,s1,s2,O(14));
+a16:MUX port map (I0(15),I1(15),x(15),y(15),z(15),'0','0','0',s0,s1,s2,O(15));
+end Behavioral;
+

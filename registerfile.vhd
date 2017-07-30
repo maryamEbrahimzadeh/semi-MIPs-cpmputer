@@ -1,0 +1,69 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity registerfile is
+  generic (blocksize : integer := 16);
+  port(
+    clk : IN STD_LOGIC; -- clock.
+    idata : IN STD_LOGIC_VECTOR(7 DOWNTO 0); -- input
+    write,writedest : IN STD_LOGIC; -- write enable
+    imediate : IN STD_LOGIC; 
+    addresss1 : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+    addresss2 : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+    addressd : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+    Rs1 : OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
+    Rs2 : OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
+    output : OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
+    outwrite : in std_logic;
+    zero : out std_logic
+     
+  );
+end;
+
+architecture rtl of registerfile is
+ 
+type mem is array (0 to blocksize - 1) of std_logic_vector (7 downto 0);
+
+begin
+  
+  process(clk,write)
+    --fill it by 0
+    variable memory : mem := (others => (others => '0'));
+		variable init : boolean := true;
+	begin
+		if init = true then
+			-- some initiation
+			memory(0) := "11111111";
+			memory(1) := "00000001";
+			memory(2) := "00000000";
+			init := false;
+		end if;
+		if clk'event and clk = '0'   and writedest = '1' then
+		  output<=memory(to_integer(unsigned(addressd)));
+		  end if;
+    if clk'event and clk = '0'   and write = '1' then
+       memory(to_integer(unsigned(addressd)))  := idata;
+    end if;
+    if clk'event and clk = '0'   and outwrite = '1' then
+      output <= idata;
+    end if; 
+    if(memory(0)="00000000") then
+      zero <='1';
+    else
+      zero <='0';
+    end if;
+   -- if clk'event and clk = '0'  then
+     RS1 <= memory(to_integer(unsigned(addresss1))); 
+     if(imediate ='0') then
+       RS2 <= memory(to_integer(unsigned(addresss2)));
+     else
+       RS2 <= "0000"&addresss2; 
+    end if;
+   -- end if;
+    end process;
+end architecture;
+  
+
+
+
